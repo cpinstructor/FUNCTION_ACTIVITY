@@ -1,0 +1,8 @@
+//Identify what action the function perform ?
+
+1.void unknown1(int num)
+             {
+    var1=num%10;
+     num=num/10;
+    var2=num%10;   
+ }    
