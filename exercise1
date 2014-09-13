@@ -1,0 +1,19 @@
+//1.  Modular program to multiply two numbers
+
+#include <stdio.h>
+____________________________________   // write function declaration
+
+int main()
+{
+  ___________________    // Declare the suitable variables
+printf(“Enter two integers\n”);
+scanf(“%d%d”,&num1,&num2);
+product=multiply(num1,num2);
+printf(“Product of two numbers = %d\n”,________);  // write the suitable variable
+return 0;
+}
+
+int multiply(int ____, int ______)
+{
+  return (num1*num2);
+}
