@@ -1,0 +1,7 @@
+//Identify the task of function
+char unknown3(char ch1)
+{
+   char  ch2;
+   ch2= ch1 + 32;
+   return ch2;
+}
