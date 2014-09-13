@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+_______________________________   // write suitable function prototype
+
+int main()
+{
+    int base,height;
+    float area_triangle;
+    printf("Enter the base and height\n");
+    scanf("%d%d",&base,&height);
+    area_triangle=area(base,height);
+    printf("Area of triangle = %f\n",a);
+    return 0;
+}    
+float area( ______________________) // write the formal parameters
+{
+    float a;
+    a=0.5 * b * h;
+    _____________________        //write suitable return statement
+}
