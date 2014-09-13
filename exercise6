@@ -1,0 +1,18 @@
+//Rectify errors
+/*3. Modular program to calculate the bill amount for the item sold with 20% discount on the item*/
+
+#include<stdio.h>
+float bill(int );
+main()
+{
+   float item_value,amount;
+   amount=bill(item_value);
+printf(“total amount to be paid =%f\n”,amount);
+}
+float bill(float value)
+{
+    float amount,discount_val;
+    discount_val= value*20/100;
+    amount=value-discount_val;
+   return amount;
+}
