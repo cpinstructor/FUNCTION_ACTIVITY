@@ -1,0 +1,21 @@
+II. Rectify the errors in the given program
+
+//1. Modular program to find area of circle
+
+#include<stdio.h>
+int area_circle(int) ;            
+int main()
+{
+    int radius;
+    float area;
+    printf("Enter the radius\n");
+    scanf("%d",radius);
+    area_circle(r);
+    printf("Area of circle = %f\n",res);
+    return 0;
+}
+float area_circkle(float r)
+{   
+    res=3.142 * r * r;
+    return(res);
+}        
