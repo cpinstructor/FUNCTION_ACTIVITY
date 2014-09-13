@@ -1,0 +1,7 @@
+// Identify the purpose of the task
+1.void unknown2(int num1,int num2)
+{
+    num1=num1+num2;
+    num2=num1-num2;
+    num1=num1-num2;
+}
