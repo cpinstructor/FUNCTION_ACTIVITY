@@ -1,0 +1,17 @@
+//Rectify errors
+//2. Modular program to find quotient of two numbers.
+#include <stdio.h>
+void divide( );
+int main()
+{
+   int  divnd,divsr,quot;
+  scanf(“%f%d” divnd,divsr);
+  quot=divid(divnd,divsr);
+  printf(“the quotient = %f\n”,divsr);
+}
+float divide(int a,int b)
+{
+     int res;
+     res=divnd/divsr;
+     return;
+}
